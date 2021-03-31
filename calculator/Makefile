@@ -6,4 +6,4 @@ INC = unity
 
 TEST = unity/unity.c
 $ (PROJECT).exe : $(SRC)
-	gcc -I $(INC) $(SRC) $(TEST) -o $ (PROJECT).exe
+	gcc -I $(INC) $(SRC) $(TEST) -o $(PROJECT).exe
