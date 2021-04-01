@@ -1,6 +1,6 @@
 #include "stdio.h"
 #include "complex_calculator.h"
-int main(){}
+
 error_t complex_sum(complex_t* cnum1, complex_t* cnum2, complex_t* csum)
 {
     if(NULL == cnum1 || NULL == cnum2)
