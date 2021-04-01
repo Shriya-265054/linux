@@ -33,5 +33,3 @@ Resources:
 
 Structure in C: you should know in depth
 
-Solutions
-By [Shriya N](https://github.com/Shriya-265054/linux/tree/master/complex_calculator)
