@@ -1,0 +1,23 @@
+        -:    0:Source:complex_calculator.c
+        -:    0:Graph:complex_calculator.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    1:#include "stdio.h"
+        -:    2:#include "complex_calculator.h"
+    #####:    3:int main(){}
+    %%%%%:    3-block  0
+    #####:    4:error_t complex_sum(complex_t* cnum1, complex_t* cnum2, complex_t* csum)
+        -:    5:{
+    #####:    6:    if(NULL == cnum1 || NULL == cnum2)
+    %%%%%:    6-block  0
+    %%%%%:    6-block  1
+    #####:    7:      return ERROR_NULL_PTR;
+    %%%%%:    7-block  0
+        -:    8:
+    #####:    9:      csum->real = cnum1->real + cnum2->real;
+    #####:   10:      csum->imaginary = cnum1->imaginary + cnum2->imaginary;
+        -:   11:
+    #####:   12:      return SUCCESS;
+    %%%%%:   12-block  0
+        -:   13:
+        -:   14:}
